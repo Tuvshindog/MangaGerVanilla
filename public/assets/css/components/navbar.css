@@ -1,0 +1,41 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #09090b;
+  padding: 1rem;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+}
+
+.nav-links li {
+  margin: 0 1rem;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+}
+
+@media (max-width: 768px) {
+  .nav-links {
+    display: none; /* Хурдан холбоосоор нуугдах */
+  }
+  .hamburger {
+    display: block; /* Гар утсанд зориулсан */
+  }
+}
+
+.logo {
+  /* Логогийн байрлалыг тохируулна */
+  margin-right: auto; /* Логог зүүнд байрлуулах */
+}
+
+.logo img {
+  height: 60px; /* Логогийн өндөр (жижигхэн) */
+  width: auto; /* Өргөн автомат */
+  display: block; /* Блок элемент */
+}

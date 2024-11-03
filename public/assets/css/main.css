@@ -1,0 +1,17 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+body {
+  background-color: #09090b;
+}
+
+.girl {
+  background-image: url("/public/assets/images/backgrounds/girl.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 600px;
+  width: 1000px;
+  border-radius: 10px;
+}
